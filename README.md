@@ -1,4 +1,4 @@
-![Telco Churn Analysis](cover.png)
+![Telco Churn Analysis](cover.jpg)
 
 # 📊 Telco Customer Churn Prediction
 
