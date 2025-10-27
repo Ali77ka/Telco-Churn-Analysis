@@ -40,6 +40,9 @@ The dataset contains customer demographic information, subscription details, ser
 | CatBoost (test) | 0.80 | 0.66 | 0.64 |
 
 📌 *Higher recall ensures more potential churners are identified — critical for retention campaigns.*
+✅ Recall ~66% — meaning the model correctly identifies about two-thirds of customers at risk of leaving, which is typical in real-world telecom churn prediction where class imbalance is high.  
+This threshold was chosen intentionally to balance recall and precision: increasing recall further was possible, but it would have sharply reduced precision and produced too many false positives. The final model maintains a healthy trade-off (Precision ≈ Recall ≈ F1 ≈ 0.63–0.66), ensuring that predictions are both sensitive and reliable.
+
 
 ---
 
